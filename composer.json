@@ -1,5 +1,5 @@
 {
-    "name": "onurb/excel-bundle",
+    "name": "thientv98/excel-bundle",
     "description": "Symfony Bundle to read or write Excel file (including pdf, xlsx, odt), using phpoffice/phpspreadsheet library (replacement of phpoffice/phpexcel, abandonned)",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -16,16 +16,16 @@
     "keywords": ["xls", "xlsx", "excel", "phpexcel", "spreadsheet", "symfony", "bundle"],
     "require": {
         "php":                          ">=7.1.3",
-        "symfony/config":               "~4.2",
-        "symfony/dependency-injection": "~3.2|~4.0",
-        "symfony/http-kernel":          "~3.2|~4.0",
-        "symfony/http-foundation":      "~3.2|~4.0",
-        "symfony/framework-bundle":     "~3.2|~4.0",
+        "symfony/config":               "^5.4",
+        "symfony/dependency-injection": "^5.4",
+        "symfony/http-kernel":          "^5.4",
+        "symfony/http-foundation":      "^5.4",
+        "symfony/framework-bundle":     "^5.4",
         "phpoffice/phpspreadsheet":     "~1.0"
     },
     "require-dev": {
         "php":                            ">=7.0",
-        "sensio/framework-extra-bundle":  "~3.2|~4.0",
+        "sensio/framework-extra-bundle":  "^5.4",
         "squizlabs/php_codesniffer":      "~2",
         "phpunit/phpunit":                "~6.5"
     },
